@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Orinoco - Products</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="./img/fav.png" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
+ <!-- Google fonts-->
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&amp;display=swap">
+
+  <script src="https://kit.fontawesome.com/634678aec6.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+    <!-- Navbar-->
+    <nav class="navbar bg-orinoco navbar-expand-lg navbar-light py-2 py-lg-4  shadow-sm">
+      <div class="container">
+        <!-- Navbar brand--><a class="navbar-brand" href="index.html"><img src="./img/logo.png" alt="Orinoco online store"
+            width="180"></a>
+        <!-- Navbar toggler-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span></button>
+        <!-- Navbar collapse-->
+        <div class="collapse navbar-collapse d-lg-flex align-items-lg-center justify-content-lg-between"
+          id="navbarSupportedContent">
+          <!-- Navbar menu left-->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item me-lg-3"><a class="nav-link text-uppercase" 
+                href="index.html">Home</a></li>
+  
+            <li class="nav-item"><a class="nav-link text-uppercase active" aria-current="page" href="product.html">Product</a></li>
+  
+            <li class="nav-item me-lg-3"><a class="nav-link text-uppercase" href="cart.html">Cart</a></li>
+          </ul>
+          <!-- Navbar menu right-->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 flex-row">
+            <li class="nav-item me-3"><a class="nav-link text-uppercase position-relative" href="cart.html">
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg>
+              
+                <span class="badge rounded-pill bg-grad">2</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+
+  <section class="py-5 d-flex flex-wrap">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-6 text-center pb-5">
+
+              <img src="./img/teddy_1.jpg" class="img-rounded img-thumbnail img-fluid" alt="Norbert">
+
+        </div>
+
+
+        <!-- Item info-->
+
+        <div class="col-lg-6">
+          <h1>Norbert</h1>
+          <br>
+          <p class="h4">$29</p>
+          <br>
+          <p class="text-small mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.</p>
+          <div class="d-flex flex-wrap align-items-center mb-4">
+            <p class="mb-0 me-3">Select color:</p>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <input class="btn-check" id="color1" type="radio" name="colorVariants" value="Tan" checked>
+                <label class="btn p-0 m-0" for="color1"><i class="fas fa-circle text-tan"></i></label>
+                <label for="Tan">Tan</label>
+              </li>
+              <li class="list-inline-item">
+                <input class="btn-check" id="color2" type="radio" name="colorVariants" value="Chocolate">
+                <label class="btn p-0 m-0" for="color2"><i class="fas fa-circle text-chocolate"></i></label>
+                <label for="Chocolate">Chocolate</label>
+              </li>
+              <li class="list-inline-item">
+                <input class="btn-check" id="color3" type="radio" name="colorVariants" value="Black">
+                <label class="btn p-0 m-0" for="color3"><i class="fas fa-circle text-black"></i></label>
+                <label for="Black">Black</label>
+              </li>
+              <li class="list-inline-item">
+                <input class="btn-check" id="color4" type="radio" name="colorVariants" value="White">
+                <label class="btn p-0 m-0" for="color4"><i class="fas fa-circle text-twhite"></i></label>
+                <label for="White">White</label>
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex align-items-center mb-4">
+            <div class="border d-flex align-items-center justify-content-between p-1 me-2">
+              <div class="quantity py-0">
+                <button class="dec-btn p-0" onclick="decrease(this)"><i class="fas fa-caret-left"></i></button>
+                <input class="form-control border-0 shadow-0 p-0 quantity-result" type="text" value="1">
+                <button class="inc-btn p-0" onclick="increase(this)"><i class="fas fa-caret-right"></i></button>
+              </div>
+            </div><a class="btn btn-primary btn-sm py-2 px-5 me-3" href="cart.html"> <i
+                class="fas fa-shopping-bag py-1 me-2"></i>Add to cart</a>
+          </div><br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="bg-orinoco">
+    <div class="container py-3 text-center">
+      <div class="row">
+        <div class="col-md-3 col-sm-12 m-auto mb-md-0"><img class="img-fluid" src="./img/logo.png" alt="Orinoco"
+            width="170">
+
+        </div>
+        <div class="col-md-3 col-sm-12  mb-md-0 m-auto">
+          <ul class="list-inline">
+            <li class="list-inline-item"><i class="fab fa-cc-visa fa-2x text-gray"></i></li>
+            <li class="list-inline-item"><i class="fab fa-cc-mastercard fa-2x text-gray"></i></li>
+            <li class="list-inline-item"><i class="fab fa-cc-paypal fa-2x text-gray"></i></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-12  mb-md-0 m-auto">
+          <div>
+            <p class="lead mb-1 text-black-50"><a class="reset-anchor" href="tel:+44 7777 456 789">+44 7777 456 789</a></p>
+            <p class="text-muted">12 Certain Street, Town, County</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-12  mb-md-0 m-auto">
+          <ul class="list-inline"> 
+            <li class="list-inline-item"><a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a class="social-icon" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a class="social-icon" href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+</body>
+
+</html>
